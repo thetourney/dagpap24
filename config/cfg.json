@@ -1,0 +1,13 @@
+{
+    "bidirectional": true,
+    "dropout": 0.5,
+    "hidden_dim": 128,
+    "k_size": 7,
+    "lr_start": 0.0005,
+    "lr_end": 0.0001,
+    "min_char_freq": 2,
+    "min_token_freq": 2,
+    "n_classes": 4,
+    "n_epochs": 9,
+    "n_layers": 2
+}

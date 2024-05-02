@@ -1,0 +1,4 @@
+fastparquet~=2024.2.0
+pandas~=2.2.2
+torch~=2.2.2
+tqdm~=4.66.1
