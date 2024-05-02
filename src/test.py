@@ -76,6 +76,8 @@ def main():
 
     print("Loading the test data.")
     test_data = pd.read_parquet(args.data_path, engine='fastparquet')
+    if 'index' in test_data.columns:
+        test_data.set_index('index', inplace=True)
 
     print("Making predictions.")
     predictions = pd.Series(index=test_data.index, name='preds', dtype=object)
